@@ -20,6 +20,6 @@ spec:
     spec:
       containers:
       - name: voting-app
-        image: kodekloud/examplevotingapp_vote:v1
+        image: gariki/voting-app
         ports:
         - containerPort: 80
